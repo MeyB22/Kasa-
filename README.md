@@ -1,6 +1,6 @@
 # Kasa
 
-Application web de location immobilière entre particuliers, réalisée dans le cadre du **Projet 7** de la formation Développeur Web d'OpenClassrooms.
+Application web de location immobilière entre particuliers.
 
 Le projet a été développé en **React** puis migré de Create React App vers **Vite**.
 
