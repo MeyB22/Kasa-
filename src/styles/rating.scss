@@ -1,0 +1,21 @@
+.rating{
+  display: flex;
+  gap: 5px;
+}
+
+.star{
+  width: 36px;
+  height: 36px;
+  fill: #E3E3E3;
+}
+
+.star--active{
+  fill: $rouge;
+}
+
+@media (max-width: 768px){
+  .star{
+    width: 20px;
+    height: 20px;
+  }
+}

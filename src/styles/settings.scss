@@ -1,0 +1,26 @@
+$rouge: #FF6060;
+$gris-bg: #F6F6F6;
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.container:has(.error-page){
+  display: flex;
+  flex-direction: column;
+}

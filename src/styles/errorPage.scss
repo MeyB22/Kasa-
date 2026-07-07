@@ -1,0 +1,48 @@
+.error-page{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.error-code{
+  color: $rouge;
+  font-size: 288px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+}
+
+.error-message{
+  color: $rouge;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 30px 0 130px;
+}
+
+.error-link{
+  color: $rouge;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px){
+  .error-page{
+    margin-bottom: 50px;
+  }
+
+  .error-code{
+    font-size: 96px;
+  }
+
+  .error-message{
+    font-size: 18px;
+    margin: 20px 0 80px;
+  }
+
+  .error-link{
+    font-size: 14px;
+  }
+}

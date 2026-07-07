@@ -1,0 +1,24 @@
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.tag{
+  background: $rouge;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px){
+  .tag{
+    padding: 3px 15px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,17 @@
+# Dépendances
+node_modules
+
+# Build de production
+dist
+
+# Cache Vite
+.vite
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fichiers système / éditeur
+.DS_Store
+.vscode/*
+.idea
